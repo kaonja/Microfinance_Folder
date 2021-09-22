@@ -1,0 +1,73 @@
+/* style for banner  from the home page*/
+header {
+
+    position:absolute;
+    z-index:10;
+    width:100%;
+}
+
+.varbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight:800;
+    text-transform:uppercase;
+    font-size:1em;
+    color:#262626;
+}
+
+.banner {
+    position:absolute;
+    background:url('');
+    min-height:100vh;
+    background-size:cover;
+    background-position:center;
+    padding: 250px 0 200px;
+}
+
+
+.page_button {
+    display:inline-block;
+    margin: 1em 0 0;
+    background: rgb(55, 83, 160);
+    color:#fff;
+    padding: 10px 20px;
+    border:none;
+    font-weight:800;
+    text-decoration:none;
+}
+
+.page_button:hover {
+   color:#fff;
+
+}
+
+
+
+
+
+
+
+
+/* style for register and login pages */
+.background {
+    background:url('') no-repeat;
+    width:100%;
+    height:100vh;
+    background-size:100%;
+}
+
+.form-container{
+ position: absolute;
+ top:200px;
+ margin-right:80px;
+ background-color:#fff;
+ padding:30px;
+ border-radius: 10px;
+ box-shadow:0px 0px 10px 0px #000;
+}
+
+.register {
+    top:150px !important;
+}
